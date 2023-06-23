@@ -152,7 +152,7 @@ const projects = () => {
         <title> Raka Arya Portfolio | Projects Page</title>
         <meta
           name="description"
-          content=""
+          content="Projects"
       </Head>
       <TransitionEffect />
       <main className="w-full mb-16 flex flex-col items-center justify-center dark:text-light">
