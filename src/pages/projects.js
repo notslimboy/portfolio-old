@@ -9,12 +9,13 @@ import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import project1 from "../../public/images/projects/crypto-screener-cover-image.jpg";
-import project2 from "../../public/images/projects/nft-collection-website-cover-image.jpg";
-import project3 from "../../public/images/projects/fashion-studio-website.jpg";
-import project4 from "../../public/images/projects/portfolio-cover-image.jpg";
-import project5 from "../../public/images/projects/agency-website-cover-image.jpg";
-import project6 from "../../public/images/projects/devdreaming.jpg";
+import project1 from "../../public/images/projects/image 32.png";
+import project2 from "../../public/images/projects/Screenshot 2023-04-17 at 5.21 1.png";
+import project3 from "../../public/images/projects/flashcard-wp.png";
+import project4 from "../../public/images/projects/3d Battleground.png";
+import project5 from "../../public/images/projects/image 31.png";
+import project6 from "../../public/images/projects/water.png";
+import project7 from "../../public/images/projects/Screenshot 2023-06-23 at 5.08.44 PM.png";
 import { motion } from "framer-motion";
 import TransitionEffect from "@/components/TransitionEffect";
 
@@ -167,59 +168,70 @@ const projects = () => {
             <div className="col-span-12">
               <FeaturedProject
                 type="Featured Project"
-                title="Crypto Screener Application"
-                summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your local currency."
+                title="KOCHENG: Battle of Boings"
+                summary="KOCHENG : BATTLE OF BOINGS is a Multiplayer PVP game where you shoot to bounce your enemies into the arena around you. Together with Kocheng and other Boings, let's join the bouncing party in the Battle of Boings !"
                 img={project1}
-                link="https://devdreaming.com/videos/build-crypto-screener-app-with-react-tailwind-css"
-                github="https://github.com/codebucks27/CryptoBucks-Final-Code"
+                link="https://play.google.com/store/apps/details?id=com.MiraiMimpi.BATTLEOFBOINGS"
+                github=""
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
               <Project
-                type="Website Template"
-                title="NFT collection Website"
-                img={project2}
-                link="https://devdreaming.com/videos/create-nft-collection-website-reactjs"
-                github="https://github.com/codebucks27/The-Weirdos-NFT-Website-Starter-Code"
+                  type="Memorization Game with Leitnerr Sytem"
+                  title="Flashcard Lumber"
+                  img={project3}
+                  link="https://devdreaming.com/videos/build-stunning-fashion-studio-website-with-reactJS-locomotive-scroll-gsap"
+                  github="https://gitlab.com/notslimboy/flashcard"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
               <Project
-                type="Website"
-                title="Fashion Studio Website"
-                img={project3}
-                link="https://devdreaming.com/videos/build-stunning-fashion-studio-website-with-reactJS-locomotive-scroll-gsap"
-                github="https://github.com/codebucks27/wibe-studio"
+                type="Online Realtime Multiplayer Game"
+                title="3D Battleground"
+                img={project4}
+                link="https://gitlab.com/notslimboy/3-d-battleground-multiplayer-online-shooting-game"
+                github="https://gitlab.com/notslimboy/3-d-battleground-multiplayer-online-shooting-game"
               />
             </div>
 
             <div className="col-span-12">
               <FeaturedProject
-                type="Portfolio Website"
-                title="React Portfolio Website"
-                summary="A professional portfolio website using React JS, Framer-motion, and Styled-components. It has smooth page transitions, cool background effects, unique design and it is mobile responsive."
-                img={project4}
-                link="https://devdreaming.com/videos/build-stunning-portfolio-website-react-js-framer-motion"
-                github="https://github.com/codebucks27/react-portfolio-final"
+                type="NFT Game"
+                title="18 Days of War Mahabarats"
+                summary="Destroying the opponent's tower or base by removing several available units by giving silver as a condition for being able to remove the unit. Players are required to have their strategy in winning the game either in the form of defense or attack. Players are also required to pay attention to each unit issued whether it has been effective or not in defeating the enemy"
+                img={project2}
+                link="https://18daysofwar.monsterar.net/"
+                github="https://docs.google.com/document/d/1NNhO4F53uKHNQKQi8KYh1OMamG8_gcqpwpaA7MFj_Eo/edit?usp=sharing"
               />
             </div>
 
             <div className="col-span-6 sm:col-span-12">
               <Project
-                type="Website Template"
+                type="Pyshic Game"
                 img={project5}
-                title="Agency Website Template"
-                link="https://devdreaming.com/videos/build-stunning-fashion-studio-website-with-reactJS-locomotive-scroll-gsap"
-                github="https://github.com/codebucks27/wibe-studio"
+                title="3D Science School"
+                link=""
+                github=""
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
               <Project
-                type="Blog Website"
+                type="Pyshic Simulation Game"
                 img={project6}
-                title="DevDreaming"
-                link="https://devdreaming.com"
-                github="https://github.com/codebucks27"
+                title="Water Bouyancy"
+                link="https://gitlab.com/notslimboy/water-bouyancy"
+                github="https://gitlab.com/notslimboy/water-bouyancy"
+              />
+            </div>
+
+            <div className="col-span-12">
+              <FeaturedProject
+                  type="Unreal game"
+                  title="Zombie Land Survival"
+                  summary="A shooting game that pits players against zombies is called Zombie Land Survival. The player must endure as long as they can."
+                  img={project7}
+                  link="https://notslimboy.itch.io/zombie"
+                  github="https://notslimboy.itch.io/zombie"
               />
             </div>
           </div>

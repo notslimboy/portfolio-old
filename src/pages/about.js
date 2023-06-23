@@ -131,9 +131,10 @@ bg-light p-8 dark:bg-dark dark:border-light xl:col-span-4 md:order-1 md:col-span
             </div>
           </div>
 
-          <Skills />
+
           <Experience />
           <Education />
+          <Skills />
         </Layout>
       </main>
     </>
