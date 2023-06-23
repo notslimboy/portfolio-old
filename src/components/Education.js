@@ -33,7 +33,7 @@ const Education = () => {
   });
   return (
     <div className="my-64">
-      <h2 className="font-bold text-8xl mb-32 w-full text-center md:text-6xl xs:text-4xl md:mb-16">Education</h2>
+      <h2 className="font-bold text-8xl mb-32 w-full text-center md:text-6xl xs:text-4xl md:mb-16">Education and Training</h2>
 
       <div ref={ref} className="w-[75%] mx-auto relative lg:w-[90%] md:w-full">
         <motion.div
@@ -44,13 +44,6 @@ const Education = () => {
 
         <ul className="w-full flex flex-col items-start justify-between ml-4 xs:ml-2">
 
-          <Details
-              type="Master of Computer Science"
-              time="2020-2022"
-              place="Stanford University"
-              info="Completed a master's project on deep learning, developing a new neural network architecture for natural language understanding."
-          />
-
         <Details
             type="Bachelor of Science in Computer Science"
             time="2018-2022"
@@ -59,11 +52,26 @@ const Education = () => {
           />
 
           <Details
-            type="Online Coursework"
-            time="2016-2020"
-            place="Coursera and edX"
-            info="Completed coursework in advanced topics such as Reinforcement Learning, Computer Vision, and Machine Learning Engineering."
+            type="Unreal Engine: First Person Shooter Survival Course by Aidan Perry"
+            time="2022"
+            place="Online Course (Udemy)"
+            info="Create a FPS Zombie Survival with AI movement and Logic"
           />
+
+          <Details
+              type="Unity 3D Course by Gamedev.tv"
+              time="2020"
+              place="Online Course (Udemy)"
+              info="Create few 3D simple game and making some improvement on the machanic"
+          />
+
+          <Details
+              type="Unity 2D Course by Gamedev.tv"
+              time="2020"
+              place="Online Course (Udemy)"
+              info="Create few 3D simple game and making some improvement on the machanic"
+          />
+
         </ul>
       </div>
     </div>

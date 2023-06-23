@@ -57,7 +57,7 @@ Explore my latest projects and articles, showcasing my expertise in React.js and
                   >Resume <LinkArrow className={"w-6 ml-1"}/>
                   
                   </Link>
-                  <Link href="mailto:abcd@gmail.com" target={"_blank"}
+                  <Link href="mailto:raka.arya34@gmail.com" target={"_blank"}
                   className="ml-4 text-lg font-medium capitalize text-dark underline dark:text-light md:text-base"
                   >Contact</Link>
                 </div>
@@ -66,9 +66,9 @@ Explore my latest projects and articles, showcasing my expertise in React.js and
         </Layout>
 
         <HireMe />
-        <div className='absolute right-8 bottom-8 inline-block w-24 md:hidden'>
-         {/* <Image src={lightBulb} alt="Codebucks" className='w-full h-auto' />*/}
-        </div>
+        {/*<div className='absolute right-8 bottom-8 inline-block w-24 md:hidden'>
+          <Image src={lightBulb} alt="Codebucks" className='w-full h-auto' />
+        </div>*/}
       </main>
     </>
   )
