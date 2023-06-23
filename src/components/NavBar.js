@@ -114,7 +114,7 @@ const NavBar = () => {
 
         <nav className="flex items-center justify-center flex-wrap">
           <motion.a
-            href="https://twitter.com"
+            href="https://github.com/notslimboy"
             target={"_blank"}
             whileHover={{ y: -2 }}
             whileTap={{ scale: 0.9 }}
@@ -132,7 +132,7 @@ const NavBar = () => {
             <GithubIcon />
           </motion.a>
           <motion.a
-            href="https://github.com/notslimboy"
+            href="https://www.linkedin.com/in/raka-arya-pratama-notslimboy/"
             target={"_blank"}
             className="w-6 mx-3"
             whileHover={{ y: -2 }}
@@ -211,7 +211,7 @@ const NavBar = () => {
 
           <nav className="flex items-center justify-center flex-wrap mt-2">
             <motion.a
-              href="https://twitter.com"
+              href="https://github.com/notslimboy"
               target={"_blank"}
               whileHover={{ y: -2 }}
               whileTap={{ scale: 0.9 }}
@@ -229,7 +229,7 @@ const NavBar = () => {
               <GithubIcon />
             </motion.a>
             <motion.a
-              href="https://github.com/notslimboy"
+              href="https://www.linkedin.com/in/raka-arya-pratama-notslimboy/"
               target={"_blank"}
               className="w-6 mx-3 sm:mx-1"
               whileHover={{ y: -2 }}
